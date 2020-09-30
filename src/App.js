@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import doggo from './doggo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   const [doggoImg, setDoggoImg] = useState();
 
   const giveMeADoggo = async () => {
@@ -26,6 +26,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
